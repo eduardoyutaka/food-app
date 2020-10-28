@@ -1,19 +1,23 @@
 import * as React from 'react';
-import { Nav, SearchButton, MenuButton, NavbarTitle } from './styles';
+import { Container, Nav, IconButton, NavbarTitle } from './styles';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
-    <Nav>
-      <MenuButton>
-        Menu
-      </MenuButton>
-      <NavbarTitle>
-        New York
-      </NavbarTitle>
-      <SearchButton>
-        Search
-      </SearchButton>
-    </Nav>
+    <Container>
+      <Nav>
+        <IconButton>
+          <FontAwesomeIcon icon={faBars} />
+        </IconButton>
+
+        <NavbarTitle>New York</NavbarTitle>
+
+        <IconButton>
+          <FontAwesomeIcon icon={faSearch} />
+        </IconButton>
+      </Nav>
+    </Container>
   );
 };
 
