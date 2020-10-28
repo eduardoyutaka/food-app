@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Card, TextContainer, Title, Text, ImageContainer, Image, Content } from './styles';
+import { Card, TextContainer, Title, Text, ImageContainer, Content } from './styles';
 
 const DiscountCard = ({ card }) => {
   return (
@@ -10,7 +10,7 @@ const DiscountCard = ({ card }) => {
           <Text>{card.expirationText}</Text>
         </TextContainer>
         <ImageContainer>
-          <Image src={card.image}></Image>
+          <img src={card.image} />
         </ImageContainer>
       </Content>
     </Card>

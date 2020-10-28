@@ -1,16 +1,18 @@
 import * as React from 'react';
 import cards from './data';
-import { Container } from './styles';
+import { Container, CardsContainer } from './styles';
 import { CuisineCard } from '../Cards';
 
 const CuisinesMenu = () => {
-  console.log(cards);
   return (
     <Container>
       <h2>Cuisine</h2>
-      {cards.map(card =>
-        <CuisineCard card={card} />
-      )}
+
+      <CardsContainer>
+        {cards.map((card, index) =>
+          <CuisineCard card={card} key={index} />
+        )}
+      </CardsContainer>
     </Container>
   );
 };

@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const Card = styled.div`
   width: 100%;
   height: 115px;
-  border-radius: 20px;
   background-color: #f4f4f4;
+  border-radius: 20px;
 `;
 
 export const Content = styled.div`
@@ -35,7 +35,4 @@ export const ImageContainer = styled.div`
   margin-right: -20px;
   min-width: 115px;
   height: 115px;
-`;
-
-export const Image = styled.img`
 `;
