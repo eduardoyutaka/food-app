@@ -10,7 +10,7 @@ const DiscountCard = ({ card }) => {
           <Text>{card.expirationText}</Text>
         </TextContainer>
         <ImageContainer>
-          <img src={card.image} />
+          <img src={card.image} alt="food" />
         </ImageContainer>
       </Content>
     </Card>

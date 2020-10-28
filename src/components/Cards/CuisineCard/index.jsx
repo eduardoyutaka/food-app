@@ -7,7 +7,7 @@ const CuisineCard = ({ card }) => {
     <ShadowedCard>
       <Content>
         <ImageContainer>
-          <img src={card.image} />
+          <img src={card.image} alt="food" />
         </ImageContainer>
         <Title>{card.title}</Title>
       </Content>
