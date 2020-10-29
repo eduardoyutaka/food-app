@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/food-app/static/css/main.4d9298e8.chunk.css",
+    "main.js": "/food-app/static/js/main.a804ccab.chunk.js",
+    "main.js.map": "/food-app/static/js/main.a804ccab.chunk.js.map",
+    "runtime-main.js": "/food-app/static/js/runtime-main.f26eccda.js",
+    "runtime-main.js.map": "/food-app/static/js/runtime-main.f26eccda.js.map",
+    "static/js/2.bf693fc6.chunk.js": "/food-app/static/js/2.bf693fc6.chunk.js",
+    "static/js/2.bf693fc6.chunk.js.map": "/food-app/static/js/2.bf693fc6.chunk.js.map",
+    "index.html": "/food-app/index.html",
+    "static/css/main.4d9298e8.chunk.css.map": "/food-app/static/css/main.4d9298e8.chunk.css.map",
+    "static/js/2.bf693fc6.chunk.js.LICENSE.txt": "/food-app/static/js/2.bf693fc6.chunk.js.LICENSE.txt",
+    "static/media/burger.9066589d.svg": "/food-app/static/media/burger.9066589d.svg",
+    "static/media/chinese-food.6679390b.svg": "/food-app/static/media/chinese-food.6679390b.svg",
+    "static/media/fries.deef1fd8.svg": "/food-app/static/media/fries.deef1fd8.svg",
+    "static/media/hot-dog.41d352cb.svg": "/food-app/static/media/hot-dog.41d352cb.svg",
+    "static/media/pizza.38465bd1.svg": "/food-app/static/media/pizza.38465bd1.svg",
+    "static/media/sandwich.4b22450e.svg": "/food-app/static/media/sandwich.4b22450e.svg",
+    "static/media/sushi.b3c00882.svg": "/food-app/static/media/sushi.b3c00882.svg",
+    "static/media/taco.0927c749.svg": "/food-app/static/media/taco.0927c749.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f26eccda.js",
+    "static/js/2.bf693fc6.chunk.js",
+    "static/css/main.4d9298e8.chunk.css",
+    "static/js/main.a804ccab.chunk.js"
+  ]
+}
