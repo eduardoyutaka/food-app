@@ -7,6 +7,20 @@ export const Card = styled.div`
   border-radius: 20px;
 `;
 
+export const Title = styled.h3`
+  width: 100%;
+  margin-bottom: 5px;
+`;
+
+export const Text = styled.p`
+  width: 100%;
+  margin-bottom: 5px;
+`;
+
+export const Score = styled.p`
+  font-weight: bold;
+  width: 100%;
+`;
 
 export const Content = styled.div`
   padding: 20px;
@@ -17,5 +31,7 @@ export const Content = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  width: 60px;
+  width: 80px;
+  position: relative;
+  left: 50px;
 `;

@@ -1,24 +1,23 @@
-import pizza from '../../assets/img/pizza.svg';
-import taco from '../../assets/img/taco.svg';
-import burger from '../../assets/img/burger.svg';
-import sushi from '../../assets/img/sushi.svg';
+import fries from '../../assets/img/fries.svg';
+import sandwich from '../../assets/img/sandwich.svg';
+import hotDog from '../../assets/img/hot-dog.svg';
 
 const data = [
   {
-    title: 'Italian',
-    image: pizza,
+    title: 'French Fries',
+    text: 'According to an old family recipe',
+    score: 4.8,
+    image: fries,
   },
   {
-    title: 'Mexican',
-    image: taco,
+    title: 'Sandwiches',
+    score: 5.0,
+    image: sandwich,
   },
   {
-    title: 'American',
-    image: burger,
-  },
-  {
-    title: 'Japanese',
-    image: sushi,
+    title: 'Hot dogs',
+    score: 4.9,
+    image: hotDog,
   },
 ];
 
