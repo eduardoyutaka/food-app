@@ -2,6 +2,7 @@ import * as React from 'react';
 import Navbar from './components/Navbar';
 import DiscountBanner from './components/DiscountBanner';
 import CuisinesMenu from './components/CuisinesMenu';
+import PopularMenu from './components/PopularMenu';
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <DiscountBanner />
       <CuisinesMenu />
+      <PopularMenu />
     </div>
   );
 };
